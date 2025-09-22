@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="home"></div>
     
+    <script>
+        // Cargar home.html directamente en el div
+        document.getElementById('home').innerHTML = `
+            <!-- Pega aquí TODO el contenido de tu home.html -->
+            <h1>Mi Home</h1>
+            <p>Contenido...</p>
+        `;
+    </script>
 </body>
 <div>
     <footer>
@@ -26,3 +33,4 @@
     </footer>
 </div>
 </html>>
+</html>
